@@ -8,7 +8,7 @@ import './Home.css';
 const Home = () => {
   return (
     <>
-      <section id="header" className="d-flex align-items-center">
+      <section id="home" className="d-flex align-items-center">
         <div className="container-fluid nav_bg">
           <div className="row">
             <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">

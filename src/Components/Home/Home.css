@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 # Home Section
 --------------------------------------------------------------*/
-#header {
+#home {
   width: 100%;
   height: 70vh;
   background: #fef8f5;
@@ -9,7 +9,7 @@
   margin: 72px 0 -72px 0;
 }
 
-#header h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -17,13 +17,13 @@
   color: #4e4039;
 }
 
-#header h2 {
+#home h2 {
   color: #a08f86;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#header .btn-get-started {
+#home .btn-get-started {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -37,53 +37,53 @@
   background: palevioletred;
 }
 
-#header .btn-get-started:hover {
+#home .btn-get-started:hover {
   background: #ef7f4d;
 }
 
-#header .animated {
+#home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @media (min-width: 1024px) {
-  #header {
+  #home {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 991px) {
-  #header {
+  #home {
     height: calc(100vh - 72px);
   }
-  #header .animated {
+  #home .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #header .header-img {
+  #home .home-img {
     text-align: center;
   }
-  #header .header-img img {
+  #home .home-img img {
     width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  #header h1 {
+  #home h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #header h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
-  #header .header-img img {
+  #home .home-img img {
     width: 70%;
   }
 }
 
 @media (max-width: 575px) {
-  #header .header-img img {
+  #home .home-img img {
     width: 80%;
   }
 }
