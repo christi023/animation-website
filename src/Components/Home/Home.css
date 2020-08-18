@@ -3,17 +3,15 @@
 --------------------------------------------------------------*/
 #home {
   width: 100%;
-  height: 89vh;
-  background: #fef8f5;
-  border-bottom: 1px solid #fcebe3;
-  margin: 72px 0 -72px 0;
+  height: 70vh;
+  background: #fff !important;
+  margin: 100px 0 -72px 0;
 }
 
 #home h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
   color: #4e4039;
 }
 
@@ -29,18 +27,25 @@
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 10px 30px;
   border-radius: 16px;
   transition: 0.5s;
-  margin: 10px;
+
   color: #fff;
   background: palevioletred;
+  text-decoration: none;
 }
 
 #home .btn-get-started:hover {
   background: #ef7f4d;
 }
 
+#home .home-img {
+  text-align: right;
+}
+#home .brand-name {
+  color: lightskyblue;
+}
 #home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
