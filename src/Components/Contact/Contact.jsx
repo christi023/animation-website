@@ -23,7 +23,7 @@ const Contact = () => {
     });
   };
 
-  // method
+  // form submit method
   const formSubmit = (e) => {
     e.preventDefault();
     alert(
@@ -46,26 +46,26 @@ const Contact = () => {
             >
               <div className="info">
                 <div className="address">
-                  <i className="icofont-google-map"></i>
+                  <i className="fas fa-map-marker-alt"></i>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Carlsvägen 5, Malmö,Sweden</p>
                 </div>
 
                 <div className="email">
-                  <i className="icofont-envelope"></i>
+                  <i className="fas fa-envelope"></i>
                   <h4>Email:</h4>
                   <p>info@example.com</p>
                 </div>
 
                 <div className="phone">
-                  <i className="icofont-phone"></i>
+                  <i className="fas fa-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+46 876 765616</p>
                 </div>
 
                 <iframe
                   title="google location"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4507.474260477943!2d13.057881679997548!3d55.60658848248515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a22d7772bae7%3A0xcd37675bf6f9af1f!2sBulltofta%2C%20Kirseberg%2C%20Malm%C3%B6!5e0!3m2!1ssv!2sse!4v1598208002562!5m2!1ssv!2sse"
                   frameBorder="0"
                   style={{ border: '0', width: '100 %', height: '290px' }}
                   allowFullScreen
@@ -152,90 +152,6 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            {/* <div className="container contact_div">  
-              <div className="row">
-                <div className="col-md-6 col-10 mx-auto">
-                  <form onSubmit={formSubmit}>
-                    <div className="form-group">
-                      <label htmlFor="name">Full Name</label>
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="fullName"
-                        id="name"
-                        placeholder="Enter your name"
-                        value={data.fullName}
-                        onChange={InputEvent}
-                      />
-                      <div className="validate"></div>
-                    </div>
-                    <br />
-                    <div className="form-group">
-                      <label htmlFor="name">Phone</label>
-                      <input
-                        type="number"
-                        className="form-control"
-                        name="phone"
-                        id="phone"
-                        placeholder="mobile number"
-                        value={data.phone}
-                        onChange={InputEvent}
-                      />
-                      <div className="validate"></div>
-                    </div>
-                    <br />
-                    <div className="form-group">
-                      <label htmlFor="name">Email Address</label>
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="email"
-                        value={data.email}
-                        onChange={InputEvent}
-                        id="email"
-                        placeholder="name@example.com"
-                      />
-                      <small id="emailHelp" className="form-text text-muted">
-                        We'll never share your email with anyone else.
-                      </small>
-                      <div className="validate"></div>
-                    </div>
-                    <br />
-                    <div className="form-group">
-                      <label htmlFor="name">Subject</label>
-                      <input
-                        type="text"
-                        className="form-control"
-                        name="subject"
-                        id="subject"
-                        value={data.subject}
-                        onChange={InputEvent}
-                        placeholder="Please enter at a subject"
-                      />
-                      <div className="validate"></div>
-                    </div>
-                    <br />
-                    <div className="form-group">
-                      <label htmlFor="name">Message</label>
-                      <textarea
-                        className="form-control"
-                        name="message"
-                        rows="4"
-                        data-rule="required"
-                        value={data.message}
-                        onChange={InputEvent}
-                        placeholder="Please write something for us"
-                      ></textarea>
-                      <div className="validate"></div>
-                    </div>
-                    <br />
-                    <button type="submit" className="btn btn-outline-primary">
-                      Send Message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>*/}
           </div>
         </div>
       </section>
