@@ -7,7 +7,7 @@
   font-family: 'Mulish', sans-serif;
 }
 /*------------------- Navbar ----------------------*/
-#navbar {
+/*#navbar {
   height: 72px;
   transition: all 0.5s;
   z-index: 997;
@@ -15,7 +15,7 @@
   padding: 15px 0;
   background: #fff !important;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 #navbar .logo h1 {
   font-size: 30px;
@@ -51,6 +51,16 @@
 .menu_active {
   font-weight: bold;
   border-bottom: 1px solid #565387;
+}
+
+.navbar {
+  background-color: #fff !important;
+  transition: all 0.5s;
+  z-index: 997;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+  margin-right: -15px;
+  margin-left: -13px;
 }
 
 /*--------------------------------------------------------------
