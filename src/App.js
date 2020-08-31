@@ -11,9 +11,6 @@ import Contact from './Components/Contact/Contact';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 
-// styles
-import './App.css';
-
 function App() {
   return (
     <div className="App">
