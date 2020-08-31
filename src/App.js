@@ -7,8 +7,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Service from './Components/Service';
-import Contact from './Components/Contact';
+import Contact from './Components/Contact/Contact';
 import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 // styles
 import './App.css';
@@ -24,6 +25,9 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
       </Switch>
+      <div className="footer" style={{ paddingTop: '8rem' }}>
+        <Footer />
+      </div>
     </div>
   );
 }
